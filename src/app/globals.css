@@ -27,15 +27,45 @@
 } */
 body {
   /* background-color: white; */
-  background-image: url("/homepic.jpg");
+  /* background-image: url("/homepic.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+  font-size: 15px;
+  margin:0px;
 }
-main > * {
+/* main > * {
   margin: 10px;
+} */
+
+#box1{
+  border: 5px solid;
+  width: 250px;
+  height: 250px;
+  font-size:12px;
+  background: greenyellow;
+  padding: 15px;
+  /* margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px; */
+  /* margin: 50px; */
+  /* margin-left: 50%; left margin takes 50% of screen */
+  /* margin-left: auto; stick element to right side */
+  /* center a div!!! */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
 }
+
+#box2{
+  border: 5px solid;
+  width: 250px;
+  height: 250px;
+  font-size:12px;
+  background: dodgerblue;
+}
+
 h1{
   background: linear-gradient(to right,skyblue, white);
   background-repeat: no-repeat;
