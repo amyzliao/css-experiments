@@ -3,35 +3,20 @@ import Navbar from '../../components/navbar'
 export default function TestingPage() {
     return (
         <main >
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
+            <a href='https://www.google.com'>Google.com</a>
+            <button>Click me</button>
 
-            <div id='box1'>
-                <div id='box2'>Box2 inside box 1</div>
-            </div>
-            <div id='box2'>Box2</div>
-            <div id='box4'>Box4</div>
-            <div id='box5'>Box5</div>
-
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-            <p>I'm not comfortable accepting donations for my work. Rather, I would like to encourage you to donate to a struggling family or a charity of your choosing. One charity I support is St. Jude's Hospital, which covers the cost of treatment for kids with cancer and other illnesses. There is always somebody who is in a worse situation than us. We should do our part to help if we can. Thanks everyone</p>
-
+            <ul>
+                <li>This is element 1</li>
+                <li>This is element 2</li>
+                <li>This is element 3</li>
+                <li>This is element 4</li>
+                <li>This is element 5</li>
+                <li>This is element 6</li>
+                <li>This is element 7</li>
+                <li>This is element 8</li>
+                <li>This is element 9</li>
+            </ul>
         </main>
     )
 }

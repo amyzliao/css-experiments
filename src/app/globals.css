@@ -26,67 +26,39 @@
     rgb(var(--background-start-rgb));
 } */
 body {
-  font-size: 15px;
+  font-size: 30px;
 }
 
-#box1{
-  border: 1px solid;
-  height: 300px;
-  width: 300px;
+a{
+  color:limegreen;
+}
+a:visited{
+  color:blue;
+}
+a:hover{
+  color:tomato;
+}
+a:active{
+  color:yellow;
+}
+button{
+  background-color: darkgrey;
+}
+button:hover{
+  background-color: lightgrey;
+}
+button:active{
+  background-color: orange;
+}
+/* li:nth-child(4){
+  background-color: yellow;
+} */
+/* li:nth-child(even){
   background-color: skyblue;
-
-  /* offset the box based on a relative point
-  this moves it down 50px and left 50px
-  it can cover other things */
-  /* position:relative;
-  top: 150px;
-  left:150px; */
-
-  /* relative is NON STATIC! */
-  position:relative;
-  top: 250px;
-  left: 250px;
 }
-
-#box2{
-  border: 1px solid;
-  height: 100px;
-  width: 100px;
-  background-color: pink;
-
-  /* position:relative;
-  top: 150px;
-  left:150px; */
-
-  /* it turns into a ghost, covering other things */
-  position: absolute;
-  /* this puts it in top left corner of entire screen
-  any element absolutely positioned will search for any
-  parents positioned non-statically. if it does not have
-  a parent, it will use viewport (screen).*/
-  /* top: 0; */
-  top: 100px;
-  left: 100px;
-}
-
-#box4{
-  border: 1px solid;
-  height: 300px;
-  width: 300px;
-  background-color: skyblue;
-
-  position: fixed;
-  top: 0px;
-  right:0px;
-}
-
-#box5{
-  border: 1px solid;
-  height: 300px;
-  width: 300px;
-  background-color: skyblue;
-
-  position: sticky;
-  top: 0px;
-  bottom: 0px;
+li:nth-child(odd){
+  background-color: powderblue;
+} */
+li:nth-child(4n+1){
+  background-color: yellow;
 }
