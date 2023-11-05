@@ -26,30 +26,44 @@
     rgb(var(--background-start-rgb));
 } */
 body {
-  background-color: white;
+  /* background-color: white; */
+  background-image: url("/homepic.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+main > * {
+  margin: 10px;
 }
 h1{
+  background: linear-gradient(to right,skyblue, white);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color:black;
   font-family:'Josefin Sans', sans-serif;
   font-style:italic;
   font-weight:bold;
   text-decoration: cyan dotted underline;
   font-size: 40px;
-  border-width: 4px;
+  /* border-width: 4px;
   border-color: black;
   border-top-style: dotted;
   border-bottom-style: dotted;
   border-left-style: double;
   border-left-width: 10px;
-  border-left-color: silver;
+  border-left-color: silver; */
 }
 p{
+  background: linear-gradient(to left,skyblue, white);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color:white;
   font-family: 'consolas', sans-serif;
-  border-style: outset;
+  /* border-style: outset;
   border-width: 5px;
   border-color: gold;
-  border-radius: 10px;
+  border-radius: 10px; */
   padding: 5px;
 }
 #p4{
