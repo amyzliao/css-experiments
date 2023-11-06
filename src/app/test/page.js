@@ -10,6 +10,21 @@ export default function TestingPage() {
             <div id="box1">
                 Hi
             </div>
+            <div id="box2">
+                b2
+            </div>
+            <div id="box3">
+                b3
+            </div>
+            <div id="box4">
+                b4
+            </div>
+            <div id="box5">
+                b5
+            </div>
+            <div id="box6">
+                b6
+            </div>
         </main>
     )
 }
