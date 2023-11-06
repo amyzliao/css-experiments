@@ -7,30 +7,9 @@ import '../globals.css'
 export default function TestingPage() {
     return (
         <main >
-            <h1>
-                Welcome to my website
-            </h1>
-            <a href="https://mail.google.com/">
-                <FontAwesomeIcon
-                    className="icon"
-                    id='fa-envelope'
-                    icon={faEnvelope}
-                    size='xs' />
-            </a>
-            <a href="./">
-                <FontAwesomeIcon
-                    className="icon"
-                    id="fa-house"
-                    icon={faHouse}
-                    size='xs' />
-            </a>
-            <a href="https://twitter.com/?lang=en">
-                <FontAwesomeIcon
-                    className="icon"
-                    id="fa-twitter"
-                    icon={faTwitter}
-                    size='xs' />
-            </a>
+            <div id="box1">
+                Hi
+            </div>
         </main>
     )
 }
