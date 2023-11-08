@@ -6,24 +6,13 @@ import '../globals.css'
 
 export default function TestingPage() {
     return (
-        <main >
-            <div id="box1">
-                Hi
-            </div>
-            <div id="box2">
-                b2
-            </div>
-            <div id="box3">
-                b3
-            </div>
-            <div id="box4">
-                b4
-            </div>
-            <div id="box5">
-                b5
-            </div>
-            <div id="box6">
-                b6
+        <main>
+            <div class='container'>
+                <div class='item item-1'>1</div>
+                <div class='item item-2'>2</div>
+                <div class='item item-3'>3</div>
+                {/* implicity grid: items are added outside of the explicit grid */}
+                <div class='item item-4'>4</div>
             </div>
         </main>
     )
