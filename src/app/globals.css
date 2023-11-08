@@ -30,15 +30,27 @@
   background-color:skyblue;
   padding: 5px;
   display: grid;
-  /* make 6 rows and 6 cols, each 100px */
-  grid-template-rows: 100px 100px 100px 100px 100px 100px;
-  grid-template-columns: 100px 100px 100px 100px 100px 100px;
-  /* set size of rows that get implcitly created */
-  grid-auto-rows: 100px;
-  /* if there's extra stuff that doesn't fit on grid, we make
-  new rows by default. Use this to make new columns instead: */
-  grid-auto-flow: column;
-  grid-auto-columns: 100px;
+
+  /* grid-template-rows: 100px 100px; */
+  /* fr is a unit, a fractional value of the 
+  available space
+  this makes each col take up equal space */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* now the second col is twice as large as the other two */
+  /* grid-template-columns: 1fr 2fr 1fr; */
+  /* you can mix and match values */
+  /* grid-template-columns: 100px 3fr 1fr; */
+
+  /* you can set min and max sizes, which will stop the box from growing
+  & shrinking along with the screen*/
+  grid-template-columns: 100px minmax(100px, 3fr) 1fr;
+
+  /* repeat(a,b) produces a number of bs */
+  grid-template-rows: repeat(2, 100px);
+
+  /* one value adds gaps equally to rows & cols
+  two vals, first is rows, second is cols */
+  grid-gap: 1em 3em;
 }
 
 .item {
@@ -48,39 +60,3 @@
   border-width: 4px;
 }
 
-.item-1{
-  /* writing all of these each time is a bit much */
-  /* grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 5; */
-
-  /* alternative: */
-  /* start / end */
-  grid-row: 1/ 3;
-  grid-column: 1/7;
-}
-
-.item-2{
-  /* from wherever you currently are, span yourself this no. times */
-  grid-row: span 2;
-  grid-column: span 2;
-  /* equivalent to this
-  grid-row: 1/3;
-  grid-column: 1/3 */
-}
-
-.item-3{
-  /* grid-area: row-start col-start row-end col-end; */
-  /* grid-area: 3/ 1/ 7/ 7; */
-  /* you can also negatively number columns */
-  grid-area: 3/ 1/ -1/ -1;
-}
-
-.item-4{
-  /* layering */
-  grid-area: 2/4/4/6;
-  /* puts it on top */
-  z-index: 1; 
-
-}

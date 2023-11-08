@@ -11,8 +11,6 @@ export default function TestingPage() {
                 <div class='item item-1'>1</div>
                 <div class='item item-2'>2</div>
                 <div class='item item-3'>3</div>
-                {/* implicity grid: items are added outside of the explicit grid */}
-                <div class='item item-4'>4</div>
             </div>
         </main>
     )
