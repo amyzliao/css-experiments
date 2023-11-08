@@ -31,26 +31,13 @@
   padding: 5px;
   display: grid;
 
-  /* grid-template-rows: 100px 100px; */
-  /* fr is a unit, a fractional value of the 
-  available space
-  this makes each col take up equal space */
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  /* now the second col is twice as large as the other two */
-  /* grid-template-columns: 1fr 2fr 1fr; */
-  /* you can mix and match values */
-  /* grid-template-columns: 100px 3fr 1fr; */
+  grid-template-rows: 100px 300px 100px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+    'header header'
+    'main aside'
+    'footer footer';
 
-  /* you can set min and max sizes, which will stop the box from growing
-  & shrinking along with the screen*/
-  grid-template-columns: 100px minmax(100px, 3fr) 1fr;
-
-  /* repeat(a,b) produces a number of bs */
-  grid-template-rows: repeat(2, 100px);
-
-  /* one value adds gaps equally to rows & cols
-  two vals, first is rows, second is cols */
-  grid-gap: 1em 3em;
 }
 
 .item {
@@ -60,3 +47,18 @@
   border-width: 4px;
 }
 
+.item-1{
+  grid-area: header;
+}
+
+.item-2{
+  grid-area: main;
+}
+
+.item-3{
+  grid-area: aside;
+}
+
+.item-4{
+  grid-area: footer;
+}
