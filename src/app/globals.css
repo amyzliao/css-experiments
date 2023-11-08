@@ -28,23 +28,41 @@
 
 .container{
   background-color:skyblue;
+  height: 400px;
   padding: 5px;
-  display: grid;
+  /* children are positioned in a row, left aligned */
+  display: flex;
+  /* children are not positioned in a col, up aligned */
+  /* flex-direction: column; */
 
-  height: 600px;
+  /* where are our children in relation to container, horizontally
+  main axis*/
+  justify-content: start;
 
-  /* if grid is less than size of container, you can do cool thins to
-  size the grid inside the container */
-  grid-template-rows: repeat(2, 100px);
-  grid-template-columns: repeat(2, 100px);
-  justify-content: space-evenly;
-  align-content:  space-evenly;
+  /* baseline aligns the baseline of the text inside the children 
+  cross axis*/
+  align-items: start;
+
+  /* justify-content and align-items switch axis when dealing with
+  columns. */
+
+  /* responsive layouts 
+  by default, all our items are forced into one line.
+  this lets them wrap to next lines when there's not much space.*/
+  flex-wrap: wrap;
+  /* this unlocks align-content, which positions item lines in the cross
+  axis*/
+  align-content: flex-start;
+  
+  /* gap btwn children */
+  /* gap: 1em; */
 }
 
 .item {
   background-color: lightpink;
   margin: 10px;
+  width: 100px;
+  height: 100px;
   border-color: black;
   border-width: 4px;
 }
-
